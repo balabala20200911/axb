@@ -61,7 +61,7 @@ int main(){
 		for(int i = 0; i < g.arcs; i++){
 			scanf("%d%d%d",&g.edges[i].u,&g.edges[i].v,&g.edges[i].w);
 		}
-		printf("%d\n",Kruskal());
+		printf("%d\n\n\n",Kruskal());
 	}
 	return 0;
 }
